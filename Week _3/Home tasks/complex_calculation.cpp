@@ -1,0 +1,42 @@
+#include<iostream>
+using namespace std;
+int main() {
+int first,second,third,fourth,fifth,sixth,seventh,eight,ninth,ten,eleven,twelve,thirteen,fourteen,fifteen;
+cout<<"Number 1: ";
+cin>>first;
+cout<<"Number 2: ";
+cin>>second;
+cout<<"Number 3: ";
+cin>>third;
+cout<<"Number 4: ";
+cin>>fourth;
+cout<<"Number 5: ";
+cin>>fifth;
+double first_five_no = first+second+third+fourth+fifth;
+cout<<"Number 6: ";
+cin>>sixth;
+cout<<"Number 7: ";
+cin>>seventh;
+cout<<"Number 8: ";
+cin>>eight;
+cout<<"Number 9: ";
+cin>>ninth;
+cout<<"Number 10: ";
+cin>>ten;
+double second_five_no= sixth*seventh*eight*ninth*ten;
+cout<<"Number 11: ";
+cin>>eleven;
+cout<<"Number 12: ";
+cin>>twelve;
+cout<<"Number 13: ";
+cin>>thirteen;
+cout<<"Number 14: ";
+cin>>fourteen;
+cout<<"Number 15: ";
+cin>>fifteen;
+double last_five_no= eleven-twelve-thirteen-fourteen-fifteen;
+double result_addition_Multiplication=first_five_no + second_five_no;
+double result= result_addition_Multiplication - last_five_no;
+cout<<"The final result is: "<<result<<endl;
+return 0;
+}
